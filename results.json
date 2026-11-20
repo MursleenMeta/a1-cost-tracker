@@ -1,0 +1,22 @@
+[
+  {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "reply": "Python lists are mutable, meaning their elements can be changed, added, or removed after creation, whereas tuples are immutable and cannot be modified once defined. Additionally, lists are defined using square brackets `[]` and are generally used for homogeneous data, while tuples use parentheses `()` and are often used for heterogeneous data.",
+    "input_tokens": 14,
+    "output_tokens": 63,
+    "input_price_per_m": 0.3,
+    "output_price_per_m": 2.5,
+    "cost_usd": 0.0001617
+  },
+  {
+    "provider": "groq",
+    "model": "openai/gpt-oss-20b",
+    "reply": "Lists are mutable containers that can be modified after creation, whereas tuples are immutable and cannot be altered once defined. Lists are typically written with brackets `[]` and are used for dynamic collections, while tuples, written with parentheses `()`, are ideal for fixed data and can even serve as dictionary keys thanks to their immutability.",
+    "input_tokens": 84,
+    "output_tokens": 310,
+    "input_price_per_m": 0.075,
+    "output_price_per_m": 0.3,
+    "cost_usd": 9.93e-05
+  }
+]
