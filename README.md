@@ -59,7 +59,7 @@ These values are from a sample successful execution.
 
 ## Cost Calculation
 
-Cost = (input_tokens _ input_price_per_m / 1,000,000) + (output_tokens _ output_price_per_m / 1,000,000)
+Cost = (input_tokens * input_price_per_m / 1,000,000) + (output_tokens * output_price_per_m / 1,000,000)
 
 Prices are expressed in USD per million tokens.
 
